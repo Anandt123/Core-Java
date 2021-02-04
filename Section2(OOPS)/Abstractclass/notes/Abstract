@@ -7,6 +7,7 @@ Abstract class : Any class contains atleast one Abstract method() then that type
                  Abstract --> INCOMPLETE
                  Concret --> COMPLETE
                  
+                 
 ->  Abstract method() in java are declared with Abstract Keyword. if the class contain atleast
     one Abstract method() then that class is also declared with Abstract.
 
@@ -30,7 +31,15 @@ Abstract class : Any class contains atleast one Abstract method() then that type
                               we can write Only Concrete methods() OR
                               we can write Both Abstract methods() &
                               Concrete methods().
-                              
+
+
+         WHY : the programmer should not miss the declaration of the method so inside a 
+               Generalized method we are Using Abstract.
+                
+         WHEN : when the Generalized method is declared with abstract the multiple Subclasses 
+                with a different implimentation can be operated using Abstract class.
+                
+
 ->  In an Abstract class we can declare a method as Static or Non-static.
 ->  In an Abstract class we can declare the Datamembers as Static or Non-static.
 
