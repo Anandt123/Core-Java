@@ -1,0 +1,20 @@
+->  Constructor is a special type of method which is written within the class and the 
+    class name and method name’s are same.
+    
+->  Constructor will get executed whenever the object is created.
+
+->  Every class must and should have constructor, if we didn’t write any constructor then 
+    compiler will create default constructor at compile time.
+    
+->  There are two types of constructor’s are there,
+       1.   Zero argument.
+       2.   Parameterized constructor.
+       
+->  Whenever the class contain any constructor then we can not write default constructor.
+
+      *  Constructor can not be Declared as Static.
+      *  Constructor can not be Declared as Non-static.
+      *  Constructor can not be Declared as Final.
+      
+->  If we specify written type (void) for the constructor it will consider it as a normal
+    method.
