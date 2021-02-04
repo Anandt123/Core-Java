@@ -1,0 +1,39 @@
+Abstract method(): A class contains only declaration of the method no defination of the method 
+                    that type of method is called as Abstract method().
+                    
+Abstract class : Any class contains atleast one Abstract method() then that type of class is
+                 called as Abstract class.
+                 
+                 Abstract --> INCOMPLETE
+                 Concret --> COMPLETE
+                 
+->  Abstract method() in java are declared with Abstract Keyword. if the class contain atleast
+    one Abstract method() then that class is also declared with Abstract.
+
+->  It is impossible to create OBJECT of Abstract class.
+->  We can create refrence variable of Abstract class.
+
+->  Any class inheriting the properties of Abstract class then the Subclass must override all
+    the Abstract methods present in the Superclass OR we have to declare the Subclass as Abstract 
+    class,inorder to inherit.
+    
+->  By creating the OBJECT of Subclass whenever we want call the Abstract method then it perform 
+    the implementation of the Subclass to the Called Method.
+    
+    
+  *   Abstract can not be Declared as Static
+  *   Abstract can not be Declared as Final
+  *   Abstract can not be Declared as Private
+  
+  
+->  Inside the Abstract class we can write Only Abstract methods() OR
+                              we can write Only Concrete methods() OR
+                              we can write Both Abstract methods() &
+                              Concrete methods().
+                              
+->  In an Abstract class we can declare a method as Static or Non-static.
+->  In an Abstract class we can declare the Datamembers as Static or Non-static.
+
+-> STATIC members of the Abstract class can be Accessed by using Classname with Membername.
+-> NON-STATIC/NON-PRIVATE members of the Abstract class can be Accessed ONLY/STRICTLY by 
+    creating the Object of Subclass.
