@@ -1,0 +1,4 @@
+->   It compares the Hashcode value of given 2 Objects and returns true
+      if they are same else it returns false.
+      
+->   It returns a Boolean Value.
