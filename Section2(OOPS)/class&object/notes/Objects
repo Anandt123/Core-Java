@@ -1,0 +1,43 @@
+->     Objects : Any entiety which has its own States(attributes) and behaviour those are Objects.
+                 The object may be living OR non-living thing and it may OR maynot have physical exhistance.
+    
+    States : Represents the data(value) of an Object.
+    Behaviour : Represents the behaviour(Functionality) of an Object.
+    
+         Ex : Pen, Account, Student
+                      
+                 Pen   ______________________________             
+                      | Attribute     | Behiviour    |      
+                      |               |              |      
+                      | Color         | Write        |      
+                      | cost          | Draw         |      
+                      | Brand         | refil        |      
+                      | length        |              |      
+                      | Diameter      |              |      
+                      | Dimensition   |              |      
+                      |_______________|______________|   
+                      
+              Account  ______________________________
+                      | Attribute     | Behiviour    |
+                      |               |              |
+                      | Acc no        | Deposit      |
+                      | Owner name    | WithDraw     |
+                      | Type          | Transfer     |
+                      | Balance       | CheckBal     |
+                      | Branch        | PrintStmt    |
+                      | Bank          |              |
+                      |_______________|______________|  
+                      
+              Student  _______________________________
+                      | Attribute     | Behiviour     | 
+                      |               |               |
+                      | Name          | Study         |
+                      | Id card       | Writeexam     |
+                      | Email-id      | Writenotes    |
+                      | D.O.B         | read          |
+                      | Department    | Work          |
+                      | Branch        | Attend(class) |
+                      |_______________|_______________|       
+                      
+->   Premative : Any thing which donot have its states and Behiviour Called as Premative.
+                      
