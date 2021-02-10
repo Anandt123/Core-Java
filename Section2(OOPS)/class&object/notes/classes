@@ -1,0 +1,46 @@
+classes in java : 
+
+      A Class is like an object constructor, or a "blueprint" for creating objects in memory.
+      class is a group of Objects which have common Properties & it's a logical entity, it cant be physical.
+      
+      1) Data members
+      2) Function members
+      
+->  Data member : The variables which are declared in any class by using any fundamental data types 
+                  (like int, char, float etc) or derived data type (like class, structure, pointer etc.) 
+                  are known as Data Members.
+                  
+->  Function members : function members of a class is a function that has its definition or its prototype 
+                       within the class definition like any other variable. It operates on any object of the 
+                       class of which it is a member, and has access to all the members of a class for that object.
+                       
+      1) Static member.
+      2) Non-static member.
+      
+->  Static members : Any variable like function( ) or Data member declared with STATIC keyword 
+                     is called as static member of the class.
+                     
+
+->  Non-Static members : Any variable like function( ) or Data member declared without STATIC keyword 
+                         is called as non-static member of the class.
+                         
+                       _______________________________________________________________________________________________________________
+                      |                 Access modifier's |                                   |                                       |
+                      |                                   |         STATIC                    |        NON-STATIC                     |
+                      | Location                          |                                   |                                       |
+                      |---------------------------------------------------------------------------------------------------------------|
+                      |                                   |                                   |                                       |
+                      |                                   |  Just by using member name        |  static method()-only by creating the |
+                      |     SAME CLASS                    |                                   |                  Object of the class  |
+                      |                                   |                                   |  Non-static method()-just by using the|
+                      |                                   |                                   |                      member name      | 
+                      |-----------------------------------|-----------------------------------|---------------------------------------|
+                      |                                   |                                   |                                       |
+                      |                                   |                                   |                                       |
+                      |     DIFFERENT CLASS               |  just by using class name with    |  Only by creating the object of the   |
+                      |                                   |   member name.                    |                class                  |   
+                      |                                   |                                   |                                       |
+                      |___________________________________|___________________________________|_______________________________________|  
+                      
+                      
+                      
