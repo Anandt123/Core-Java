@@ -1,0 +1,50 @@
+->  String value is the group of characters which is written in the Double Quotes.
+->  We can access the characters or perform any operations on the string only by
+    using the methods of string.
+->  internally string value is stored as a character array by the JVM.
+                                     _______________________________________
+                                    |       |       |       |       |       |
+    String str = "hello"    ---->   | 'h'   | 'e'   | 'l'   | 'l'   | 'o'   |
+                                    |_______|_______|_______|_______|_______|
+                                    
+                                    
+->  In java String is a class which is used to store group of chars the String Object.
+->  String class is immediate sub-class of object class.
+->  String class impliments Serializable, Comparable<String>, Charsequence interface.
+
+->  String class is final and it can't be inherited.
+
+->  String Objects are created in Special memory area called String pool in heap area.
+  
+    * string pool consist of two parts.
+        1)constant pool.
+        2)non-constant pool.
+    
+->  String objects can be created in 2 different ways
+        1)By using new operator
+        2)without using new operator
+        
+        
+->  if you create a String object without using new operator then the Object will be 
+    created in Constant pool.
+->  if you create a String object with using new operator then the Object will be 
+    created in Non-Constant pool.
+    
+->  Within constant pool Duplicates are not allowed.
+->  Within Non-constant pool Duplicates are allowed.
+
+NOTE :  { == }       Operator compares address of given two objects.
+        { .equals }  Operator compares value of given two objects.
+       
+       
+        
+->  Hashcode() of Object class is OVERRIDDEN in String class which returns an
+    integer value that generated based on unicode values of every character
+    Present in given String.
+->  toString() of Object class is OVERRIDDEN in String class which returns an
+    String value present in given String.
+->  equals() of Object class is OVERRIDDEN in String class which Compares
+    Character present in given 2 String and returns True if they are same 
+    else return False.
+      Ex :Best Example for method Overriding.
+      
