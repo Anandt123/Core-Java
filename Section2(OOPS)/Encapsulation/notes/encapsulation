@@ -8,10 +8,13 @@
 ->  we need to declare the data members as Private and give the access to getters
     and setters are also known as "JAVA-BEAN" or "PLAIN OLD JAVA OBJECT --> POJO"
     
+       *  Declaring data members as private and grant the access
+          through getter and setter methods is called encapsulation
+    
     GETTERS : it returns the current value of data members.
               it returns the value the return type of datamember is Declared.
               
-    SETTERS : *   setter method updates the value of the datamember .
+    SETTERS : *   setter method updates the value of the datamember.
               *   it behaves like a constructor so its return type is void.
               *   return type of setter method will be usually void because it 
                    doesn't return any value.
