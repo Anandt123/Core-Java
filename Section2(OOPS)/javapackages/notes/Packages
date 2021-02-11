@@ -19,8 +19,8 @@ package names are always written in reverse order of domain
 Data members and function members of a class present in 
 different package can be accessed by two ways
 
-Using fully qualified class names 
-Using import statement
+1) Using fully qualified class names 
+2) Using import statement
 
 A class name which is written with its package 
 name is called as fully qualified class name.
