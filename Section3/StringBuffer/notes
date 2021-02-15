@@ -1,1 +1,22 @@
+->  present in JAVA.LANG.STRINGBUFFER
 
+->  String buffers support mutable strings and THREAD Safe.
+
+->  In String Buffer Objects can be created only using NEW keyword.
+
+->  StringBuffer class impliments Serializable, Appendable<String>, Charsequence interface.
+
+->  Stringbuffer class is final and it can't be inherited.
+
+->  Stringbuffer class is immediate sub-class of object class.
+
+->  StringBuffer is like a String but canbe modified without creating any de refrenced objects.
+
+->  Here we cannot perform Concatination operation means, We can use "+" operator to perform 
+    addition operation, else we can use append keyword.
+    
+->  Any modifications to StringBuffer canbe done only by using the methods of StringBuffer class.
+
+->  toString() of Object class is OVERRIDDEN in StringBuffer class which returns an
+    String value present in given String.
+    But Hashcode method and equals methods are can't be Overridden in StringBuffer Class.
