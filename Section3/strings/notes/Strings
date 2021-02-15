@@ -14,6 +14,9 @@
 
 ->  String class is final and it can't be inherited.
 
+->  Here we can perform Concatination operation means We can use "+" operator to perform 
+    addition operation.
+
 ->  String Objects are created in Special memory area called String pool in heap area.
   
     * string pool consist of two parts.
