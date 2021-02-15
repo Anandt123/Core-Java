@@ -27,6 +27,8 @@
         1)By using new operator
         2)without using new operator
         
+           present in JAVA.LANG.STRING
+     -------------***String objects are immutable***--------------
         
 ->  if you create a String object without using new operator then the Object will be 
     created in Constant pool.
