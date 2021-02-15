@@ -1,1 +1,25 @@
+->  present in JAVA.LANG.STRINGBUILDER
 
+
+->    String builders support mutable strings and threads are not Present.
+      Instances of StringBuilder are not safe for use by multiple threads.
+      
+      
+->  In String Builder Objects can be created only using NEW keyword.
+
+->  Stringbuilder class impliments Serializable, Appendable<String>, Charsequence interface.
+
+->  Stringbuilder class is final and it can't be inherited.
+
+->  Stringbuilder class is immediate sub-class of object class.
+    
+->  StringBuilder is like a String but canbe modified without creating any de refrenced objects.
+
+->  Here we cannot perform Concatination operation means, We can use "+" operator to perform 
+    addition operation, else we can use append keyword.
+    
+->  Any modifications to StringBuffer canbe done only by using the methods of StringBuffer class.
+
+->  toString() of Object class is OVERRIDDEN in Stringbuilder class which returns an
+    String value present in given String.
+    But Hashcode method and equals methods are can't be Overridden in StringBuilder Class.
