@@ -1,9 +1,0 @@
-
-java.lang
-
-* It contains all the classes which are essential
-  to write simple java program or to develop
-  complicated java applications.
-  
-* To use classes of java.lang package we need not
-  write any import statement of fully qualified class names.
